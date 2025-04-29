@@ -1,10 +1,10 @@
-# 🍷 Wine Quality Analysis<br>
+## 🍷 Wine Quality Analysis<br>
 
 This project analyzes the physicochemical properties of wine and builds classification models to predict wine quality. Using a labeled dataset of red and white wines, the project explores relationships between features like acidity, alcohol, and pH, and applies supervised machine learning algorithms to classify wines into quality categories. This can assist wine manufacturers and enthusiasts in identifying high-quality wines based on their chemical profiles.<br>
 
 ---
 
-## 📊 Objective
+### 📊 Objective
 
 To develop a predictive model that classifies wine quality based on its physicochemical characteristics, enabling early quality estimation during the production process and aiding in quality control.<br?
 - Perform EDA on wine data to discover feature relationships.
@@ -13,14 +13,14 @@ To develop a predictive model that classifies wine quality based on its physicoc
 
 ---
 
-## 🧪 Dataset
+### 🧪 Dataset
 
 - 💡 **Records**: ~ 6,597 wine samples
 - 🧬 **Features**: 11 numeric physicochemical variables + 1 quality score (0–10)
 
 ---
 
-## 📌 Key Features Analyzed
+### 📌 Key Features Analyzed
 
 - Fixed Acidity  
 - Volatile Acidity  
@@ -37,7 +37,7 @@ To develop a predictive model that classifies wine quality based on its physicoc
 
 ---
 
-## 📈 Visualizations & Insights
+### 📈 Visualizations & Insights
 
 - Correlation heatmap to identify multicollinearity
 - Bar plots for quality distribution
@@ -47,7 +47,7 @@ To develop a predictive model that classifies wine quality based on its physicoc
 
 ---
 
-## ⚙️ Machine Learning Models Used:
+### ⚙️ Machine Learning Models Used:
 K-Nearest Neighbors (KNN)
 
 Logistic Regression
@@ -61,7 +61,7 @@ Each model was trained and evaluated using accuracy, confusion matrix, and class
 
 ---
 
-## 🛠 Tools & Libraries
+### 🛠 Tools & Libraries
 
 - Python (Pandas, NumPy, Seaborn, Matplotlib)
 - Jupyter Notebook
